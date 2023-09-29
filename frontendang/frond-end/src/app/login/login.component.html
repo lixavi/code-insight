@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <h2>Login</h2>
+        <hr/>
+    </div>
+      <div class="row">
+           <div class="col-sm-6">
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="stname" placeholder="Enter Email"/>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="stname" placeholder="Enter Password"/>
+                  </div>
+                <br>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+                  </div>
+       
+                </form>
+           </div>
+      </div>
+  </div>
