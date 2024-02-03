@@ -1,4 +1,4 @@
-# CodeInsight
+# Code Insight
 
 CodeInsight is a code review assistant tool that utilizes machine learning algorithms to analyze coding patterns and suggest optimizations. It aims to improve code quality and efficiency by providing actionable insights to developers during the code review process.
 
