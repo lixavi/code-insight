@@ -11,6 +11,14 @@ class DataLoader:
         print("Data loaded successfully.")
         return data
 
+        def load_data(self, file_path):
+        # Load data from a file
+        print("Loading data from file:", file_path)
+        # Dummy data loading process
+        data = ["Data point 1", "Data point 2", "Data point 3"]
+        print("Data loaded successfully.")
+        return data
+
     def load_code(self, file_path):
         # Load code from a file
         print("Loading code from file:", file_path)
